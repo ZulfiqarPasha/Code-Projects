@@ -1,0 +1,23 @@
+by=input('What year were you born in? ')
+byi=int(by)
+bds1=input('Have you had your birthday before today this year? ')
+if bds1=='yes':
+    print('You are')
+    print(2024-byi)
+    print('years of age.')
+    print
+    exit()
+bds2=input('Is your birthday today? ')
+if bds2=='yes':
+    print('You are ')
+    print(2024-byi)
+    print('years of age.')
+    print
+    exit()
+bds3=input('Is your birthday cpming up this year? ')
+if bds3=='yes':
+    print('You are ')
+    print(2024-byi-1)
+    print('years of age. ')
+    print
+    exit
