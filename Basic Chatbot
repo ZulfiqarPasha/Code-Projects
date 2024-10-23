@@ -1,0 +1,28 @@
+print('Hello human!')
+print('''I am a nameless program that will tell you information about you!''')
+print('But first I ask you several completely unrelated questions!')
+ans1=input('may I begin? answer in "no" or "yes" ')
+if ans1=='no':  
+    print('too bad')
+if ans1=='yes':
+    print('tremendous! let us begin!')
+age=input('How old are you? (answer in a numerical value ')
+name=input('What is your full name? ')
+school=input('what school do you go/did you go to? ')
+status=input('Are you married? answer in "yes" or "no" ')
+if status =='no':
+    s2='not married'
+if status== 'yes':
+    s2='married'
+banana=input('Do you like bananas? "no" or "yes" ')
+if banana == "yes":
+    print('Tremendous!')
+    b2='like bananas'
+if banana=="no":
+    b2='do no like bananas'
+    print("I now dislike you " + name)
+print('I have procured some information on you human!')
+print('Let me see!')
+print('Your name is '+name+', you are '+age+' years old and you go to or went to '+school+'.')
+print('You are ' +s2+'.')
+print('To finish up I would like to say thank you'+b2+'.')
