@@ -1,0 +1,35 @@
+print('Hello human!')
+print('I am a calculator')
+print("My sole purpose in life is to calculate to the full extent of your desires!")
+print("Let's start before the woke freedom activists begin chanting")
+print('I will ask you for an operation')
+print('You will then be asked for both numbers')
+print('Addition:+')
+print('Subtraction:-')
+print('Multiplication:*')
+print('Division:/')
+print('Exponentiation:**')
+print('The remainder of a division operation(only the remainder nothing else): %')
+print('Division with the answer rounded to the nearest whole number://')
+print("FUN FACT: These are the same symbols you would use to code maths operations in Python")
+n1=input("So, what will be your first number? ")
+n2=input('And the second? ')
+op=input('The operation please... ')
+n3=int(n1)
+n4=int(n2)
+if op=="+":
+    answer=n3+n4
+if op=="-":
+    answer=n3-n4
+if op=="*":
+    answer=n3*n4
+if op=="**":
+    answer=n3**n4
+if op=="//":
+    answer=n3//n4
+if op=="%":
+    answer=n3%n4
+if op=='/':
+    answer=n3/n4
+print('And the answer to your query is ...................')
+print(answer)
